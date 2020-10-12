@@ -1,5 +1,6 @@
 require "./questions"
 require "./player"
 require "./quiz"
+require "./roster"
 
-game = Quiz.new
+roster = Roster.new
