@@ -14,15 +14,3 @@ class Player
 
 end
 
-userina = Player.new("userina")
-
-puts userina.name
-puts userina.life_remaining
-
-cheater = Player.new("cheater", 25)
-
-puts cheater.name
-puts cheater.life_remaining
-
-userina.lose_life(2)
-puts "#{userina.life_remaining} / #{userina.initial_lifes}"

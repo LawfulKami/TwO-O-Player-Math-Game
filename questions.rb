@@ -13,6 +13,3 @@ class Question
   end
 end
 
-question1 = Question.new
-puts question1.first_num
-puts question1.getQuestion
