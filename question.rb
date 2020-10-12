@@ -6,7 +6,7 @@ class Question
     @second_num = rand(20)
   end
 
-  def getQuestion()
+  def get_question()
     question = "What does #{first_num} plus #{second_num} equal?"
     answer = first_num + second_num
     return [question, answer]
